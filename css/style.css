@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-image: url(../images/image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 70vh;
+    text-align: center;
+     color: white;
+     opacity: 0.8;
+}
+.content1{
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: 22%;
+    margin-right: 22%;
+
+
+}
+.content{
+    padding-top: 5px;
+   
+}
+button{
+    padding: 15px;
+    margin: 20px; 
+    border-color: white;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color:white;
+    color: black;
+}
+.section{
+    background-color:rgb(239, 240, 241);
+}
+.section{
+    text-align: center;
+     padding-top:20px;
+     font-size: 30px;
+     padding-bottom: 4%;
+ }
+.section1{
+    font-size:18px ;
+    text-align: center;
+    padding-top:10px ;
+ }
+ .main-container{
+    column-count: 3;
+    background-color: black;
+    padding-top:3%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    padding-right: 10%;
+    column-gap: 3%;
+
+}
+.img-container{
+    width: 100%;
+}
+.text-height{
+    height: 10cm;
+    background-color: white;
+    padding-bottom: 10%;
+    
+} 
+.h-section{
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 12px;
+    font-family: sans-serif;
+      font-size: 22px;
+}
+.container3{
+    text-align: center;
+    padding-top: 25px;
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container2{
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 6%;
+    padding-right: 10%;
+}
+.name{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.p-section2{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 22px;
+}
+.main_container{
+  column-count: 2;
+  column-gap: 0%;
+  
+}
+.contact-section{
+    background-color:dodgerblue;
+    height: 10cm;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+.contact-section h2{
+    padding-top: 10%
+
+}
+.contact-section p{
+    padding-top: 10%;
+    font-family: sans-serif;
+    font-size:20px ;
+}
+
+
+.about-section{
+    background-color: black;
+    height: 10cm;
+    
+}
+.about-section p{
+    font-size: 20px;
+    padding-top: 10%;
+    text-align: center;
+    color:white;
+
+}
+.about-section h2{
+    font-family: sans-serif;
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+}
+.gmail{
+    font-size: 20px;
+}
+.acme{
+    column-count: 2;
+    column-gap: 0%;
+    background-color: black;
+    padding-bottom: 2%;
+}
+.l-container{
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+
+
+
