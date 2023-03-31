@@ -10,7 +10,7 @@
     height: 100vh;
     text-align: center;
      color: white;
-     opacity: 0.8;
+     opacity: 9.5;
      
 }
 .content1{
@@ -22,7 +22,7 @@
 
 }
 .content{
-    padding-top: 5px;
+    padding-top: 10%;
    
 }
 button{
@@ -57,9 +57,9 @@ button:hover{
     background-color: black;
     padding-top:3%;
     padding-left: 10%;
-    padding-bottom: 4%;
     padding-right: 10%;
     column-gap: 3%;
+    padding-bottom: 3%;
 
 }
 .img-container{
@@ -73,7 +73,7 @@ button:hover{
 } 
 .h-section{
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 12px;
     font-family: sans-serif;
       font-size: 22px;
@@ -83,12 +83,14 @@ button:hover{
     padding-top: 25px;
     font-size:18px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
-.main-container2{
-    padding-top: 4%;
+.main-section{
+    padding-top: 3%;
     padding-left: 10%;
-    padding-bottom: 6%;
+    padding-bottom: 10%;
     padding-right: 10%;
+    background-color: white;
 }
 .name{
     text-align: center;
@@ -100,10 +102,9 @@ button:hover{
     padding-top: 3%;
     font-size: 22px;
 }
-.main_container{
-  column-count: 2;
-  column-gap: 0%;
-  
+.container-two{
+    column-count:2;
+    column-gap: 0%;
 }
 .contact-section{
     background-color:dodgerblue;
@@ -150,40 +151,30 @@ button:hover{
     background-color: black;
     padding-bottom: 2%;
 }
-.l-container{
+.last-container{
     color: white;
     text-align: center;
     padding-top: 3%;
     font-size: 17px;
     font-family: sans-serif;
 }
-
-
-
-
-
-
-@media screen and (max-width:768px) {
-  
-    .container{
-        display: inline-block;
-    }
-
+@media screen and (max-width:768px){
+    body{
+        display: inline;
+        
+    } 
 .main-container{
-grid-template-columns: max-content;
-display: inline;
+    display: inline;
+    
 }
-.main_container{
+.container-two{
     display: inline;
 }
-
-.l-container{
-    display: inline-block;
+button{
+    display: none;
 }
-
-
+    
 }
-
 
 
 
